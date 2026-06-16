@@ -1,6 +1,5 @@
-
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV1
 http://39.134.87.62/000000001000/5000000010000030810/index.m3u8
 
 #EXTM3U
@@ -18,6 +17,9 @@ http://39.134.87.62/000000001000/5000000011000031102/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png",CCTV5
 http://39.134.87.62/000000001000/5000000004000008885/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png",CCTV5
+http://222.223.41.27:8888/hls/5/index.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png",CCTV6
@@ -66,11 +68,6 @@ http://39.134.87.62/000000001000/5000000006000012123/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN
 http://39.134.87.62/000000001000/4810873738577663591/index.m3u8
-
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/上海外语.png",上海外语
-http://39.134.87.62/000000001000/5000000010000030951/index.m3u8
-
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/上视新闻.png",上海新闻综合
 http://39.134.87.62/000000001000/5000000011000031110/index.m3u8
@@ -78,11 +75,6 @@ http://39.134.87.62/000000001000/5000000011000031110/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png",上海第一财经
 http://39.134.87.62/000000001000/5000000010000027146/index.m3u8
-
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/上海都市.png",上海都市
-http://39.134.87.62/000000001000/5000000010000018926/index.m3u8
-
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/东南卫视.png",东南卫视
 http://39.134.87.62/000000001000/5000000001000005829/index.m3u8
@@ -91,84 +83,51 @@ http://39.134.87.62/000000001000/5000000001000005829/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/东方卫视.png",东方卫视
 http://39.134.87.62/000000001000/5000000010000032246/index.m3u8
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/东方影视.png",东方影视
-http://39.134.87.62/000000001000/5000000010000032212/index.m3u
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/五星体育.png",五星体育
+http://39.134.87.62/000000001000/5000000010000017540/index.m3u8
 
-
-#EXTM3U
-#EXTINF:-1 group-title="国际",CNN
-https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 group-title="国际",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 group-title="国际",CNA
+
+#EXTINF:-1 group-title="Demo",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+
 #EXTINF:-1 group-title="国际",GB News
 https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8
-#EXTINF:-1 group-title="国际",RT News
-https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际",FOX News
-http://iptvtree.net:8080/live/7e4b0dbd/1dd755dc3f/1611.ts
-#EXTINF:-1 group-title="国际",France24
-https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 group-title="国际",NHK World
-http://103.175.73.12:8080/live/417/417_0.m3u8
-#EXTINF:-1 group-title="国际",Sky News
-https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8
+
 #EXTINF:-1 group-title="国际",Al Jazeera
 https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
+
 #EXTINF:-1 group-title="国际",TRT World
 https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+
+
+#EXTINF:-1 group-title="国际",France24
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+
+
 #EXTINF:-1 group-title="国际",NEWSMAX
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/3.m3u8
 #EXTINF:-1 group-title="国际",Global News
 https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8
-#EXTINF:-1 group-title="国际",NBC News Now
-https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
-#EXTINF:-1 tvg-id="Discovery.Channel.HD.us2" tvg-name="Discovery Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11150_dark_360w_270h.png" group-title="国际",Discovery Channel
-http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
-#EXTINF:-1 tvg-id="Disney.XD.HD.us2" tvg-name="Disney XD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="国际",Disney XD
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.HD.us2" tvg-name="ESPN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" group-title="国际",ESPN
-http://41.205.93.154/ESPN/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png" group-title="国际",ESPN U
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
-#EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10240_dark_360w_270h.png" group-title="国际",HBO
-http://23.237.104.106:8080/USA_HBO/index.m3u8
-#EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="国际",HBO 2
-http://23.237.104.106:8080/USA_HBO2/index.m3u8
-#EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="Lifetime Movie Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png" group-title="国际",Lifetime Movie Network
-http://23.237.104.106:8080/USA_LMN/index.m3u8
-#EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="国际",National Geographic
-http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
-#EXTINF:-1 group-title="国际",WION
-https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-#EXTINF:-1 group-title="国际",Cartoon Network
-http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
-#EXTINF:-1 group-title="国际",CMT
-http://23.237.104.106:8080/USA_CMT/index.m3u8
-#EXTINF:-1 group-title="国际",TalkTV
-https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8
+
+
 #EXTINF:-1 group-title="国际",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+
 #EXTINF:-1 group-title="国际",RT Documentary
 https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
 #EXTINF:-1 group-title="国际",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index_8.m3u8
-#EXTINF:-1 group-title="国际",Redbull
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-#EXTINF:-1 group-title="国际",HollyWire
-https://bozztv.com/hwotta/playlist/HD3400/HD3400.m3u8
-#EXTINF:-1 group-title="国际",Comedy Central
-http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
-#EXTINF:-1 group-title="国际",MovieSphere
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="国际",AMC
-http://23.239.31.26:8989/amc/index.m3u8
-#EXTINF:-1 group-title="国际",Trace Sport Stars
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+
+
 #EXTINF:-1 group-title="国际",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+
+
+#EXTINF:-1 group-title="国际",BBC Earth
+https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8
+
 #EXTINF:-1 group-title="国际",Animal Planet
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 #EXTINF:-1 group-title="国际",Fashion Channel
@@ -267,11 +226,4 @@ https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/
 https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="国际",Rakuten Drama
 https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
-
-
-
-
-
-
-
 
